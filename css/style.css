@@ -1,0 +1,64 @@
+/* Обнуляющий стиль */
+@import "null.css";
+/* ================================= */
+/* Подключение шрифтов */
+@import "fonts.css";
+/* ================================= */
+body {
+	font-family: "CircularStd", sans-serif;
+	max-width: 1025px;
+	margin: 0 auto;
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+.header-title {
+   font-weight: 500;
+   font-size: 65px;
+   line-height: 1.3;
+   text-align: center;
+	margin: 140px 0px 20px 0px;
+   color: #313131;
+}
+.header-text {
+	font-weight: 300;
+   font-size: 20px;
+	max-width: 750px;
+	margin: 0 auto;
+   line-height: 1.25;
+	text-align: center;
+	color: #5F5F5F;
+}
+main {
+	margin: 224px 0px 0px 0px;
+	max-width: 508px;
+}
+.main-title {
+	font-weight: bold;
+   font-size: 34px;
+   line-height: 1.3;
+   color: #313131;
+	margin: 0px 0px 20px 0px;
+   opacity: 0.88;
+}
+.main-text {
+	font-size: 18px;
+   line-height: 1.6;
+   color: #5F5F5F;
+	margin: 0px 0px 100px 0px;
+} 
+.main-name {
+	font-weight: bold;
+   font-size: 18px;
+   line-height: 130%;
+   color: #313131;
+   opacity: 0.88;
+	margin: 0px 0px 5px 0px;
+}
+.main-special {
+	font-size: 18px;
+   line-height: 130%;
+	margin: 0px 0px 20px 0px;
+   color: #B8B8B8;
+}
